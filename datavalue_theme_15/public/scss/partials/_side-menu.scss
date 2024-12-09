@@ -1,5 +1,5 @@
 .side-menu {
-  background: #ffffff;
+  background: #dbced9; // color changed from #ffffff to #dbced9
   /* border-right: 1px solid #ddd; */
   //box-shadow: var(--card-shadow);
   border-right: 1px solid #e6e6e6;
@@ -13,7 +13,7 @@
   transition: all 0.3s ease-in-out;
 
   .modules-menu {
-    background: #ffffff;
+    background: #dbced9; // color changed from #ffffff to #dbced9
     box-shadow: var(--card-shadow);
     position: absolute;
     width: 340px;
@@ -40,7 +40,7 @@
         height: 40px;
         line-height: 40px;
         font-weight: 600;
-        color: #4b84a0;
+        color: #714b67; // color changed from #4b84a0 to #714b67
         overflow: hidden;
         border-radius: 4px;
         word-break: break-all;
@@ -104,7 +104,7 @@
           height: 50px;
           line-height: 50px;
           font-size: 24px;
-          color: #4b84a0;
+          color: #714b67;
           display: block;
           text-align: center;
           border-radius: 5px;
@@ -121,7 +121,7 @@
           }
 
           &:hover {
-            background: #f7f9fe;
+            background: #525252;
             border-color: $my_color;
             color: $my_color;
           }
@@ -155,7 +155,7 @@
               line-height: 50px;
               font-size: 24px;
               margin: 0px;
-              color: #4b84a0;
+              color: #714b67; // color changed from #4b84a0 to #714b67
               border-radius: 5px;
               overflow: hidden;
               transition: all 0.2s ease-in-out;
@@ -389,7 +389,7 @@
 
         > li {
           > a {
-            background: #f3f6fdb3;
+            background: #dbced9; // color changed from #f3f6fdb3 to #dbced9
             border: 1px solid #d1d3d8;
             display: block;
             margin: 0px 15px 10px 15px;
@@ -433,7 +433,7 @@
 
         > li {
           > a {
-            background: #f3f6fdb3;
+            background: #dbced9; // color changed from #f3f6fdb3 to #dbced9
             border: 1px solid #d1d3d8;
             display: block;
             margin: 0px 15px 10px 15px;
@@ -538,7 +538,7 @@
 }
 
 .side-mobile-menu {
-  background: #ffffff;
+  background: #dbced9; // color changed from #ffffff to #dbced9
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   width: 280px;
   position: fixed;
@@ -560,7 +560,7 @@
         height: 40px;
         line-height: 40px;
         font-size: 16px;
-        color: #30434f;
+        color: #c582b3;  // color changed from #30434f to #c582b3
         display: block;
         border-radius: 5px;
         padding: 0px 10px;
@@ -591,7 +591,7 @@
 
     > li {
       > a {
-        background: #f3f6fdb3;
+        background: #dbced9; // color changed from #f3f6fdb3 to #dbced9;
         border: 1px solid #d1d3d8;
         display: block;
         margin: 0px 15px 10px 15px;
@@ -697,7 +697,7 @@
     margin: 15px 10px 5px 10px;
     font-size: 16px;
     font-weight: 600;
-    color: #2490ef;
+    color: #714b67; // color changed from #2490ef to #714b67
     outline: none $imp;
   }
 }
