@@ -48,7 +48,7 @@
    "fieldname": "theme_color",
    "fieldtype": "Select",
    "label": "Color",
-   "options": "Blue\nGreen\nRed\nOrange\nYellow\nPink\nViolet"
+   "options": "Blue\nGreen\nRed\nOrange\nYellow\nPink\nViolet\nNavy"
   },
   {
    "fieldname": "login_page_section",

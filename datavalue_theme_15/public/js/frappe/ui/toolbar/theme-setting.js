@@ -7,7 +7,7 @@ $(document).on('click', '.theme-setting-colors-select.theme-setting-modal button
 });
 $(document).on('click', '.open-theme-setting', function (event) {
     event.preventDefault();
-    let colors_list = ['Blue', 'Green', 'Red', 'Orange', 'Yellow', 'Pink', 'Violet']
+    let colors_list = ['Blue', 'Green', 'Red', 'Orange', 'Yellow', 'Pink', 'Violet','Navy']
     let d = new frappe.ui.Dialog({
         title: __('Theme Settings'),
         fields: [
