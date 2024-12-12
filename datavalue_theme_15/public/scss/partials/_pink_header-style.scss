@@ -1,46 +1,46 @@
-body.dv-Red-header-style {
+body.dv-Pink-header-style {
   
     .dv-navbar .dv-nav-right > ul > li.dropdown-user > a .dv-user-info span.user-name {
-      color: $red_color_style;
+      color: $pink_color_style;
     }
   
     .dv-navbar .dv-nav-left .btn-open-modules {
-      color: $red_color_style_hover;
+      color: $pink_color_style_hover;
     }
   
     .dv-navbar .dv-nav-left .btn-open-modules:hover {
-      color: $red_color_style;
+      color: $pink_color_style;
     }
   
     .ql-snow.ql-toolbar button:hover, .ql-snow .ql-toolbar button:hover, .ql-snow.ql-toolbar button:focus, .ql-snow .ql-toolbar button:focus, .ql-snow.ql-toolbar button.ql-active, .ql-snow .ql-toolbar button.ql-active, .ql-snow.ql-toolbar .ql-picker-label:hover, .ql-snow .ql-toolbar .ql-picker-label:hover, .ql-snow.ql-toolbar .ql-picker-label.ql-active, .ql-snow .ql-toolbar .ql-picker-label.ql-active, .ql-snow.ql-toolbar .ql-picker-item:hover, .ql-snow .ql-toolbar .ql-picker-item:hover, .ql-snow.ql-toolbar .ql-picker-item.ql-selected, .ql-snow .ql-toolbar .ql-picker-item.ql-selected {
-      color: $red_color_style;
+      color: $pink_color_style;
     }
   
     .dv-navbar .dv-nav-right > ul > li.dropdown-user .dropdown-menu .dropdown-item:hover, .dv-navbar .dv-nav-right > ul > li.dropdown-user .dropdown-menu .dropdown-item:focus {
-      color: $red_color_style $imp;
+      color: $pink_color_style $imp;
       background-color: #eeeeee;
     }
   
     .dv-navbar .dv-nav-right > ul > li.dropdown-user .dropdown-menu .dropdown-item.active, .dv-navbar .dv-nav-right > ul > li.dropdown-user .dropdown-menu .dropdown-item:active {
       color: #ffffff !important;
-      background-color: $red_color_style;
+      background-color: $pink_color_style;
     }
   
     .dv-navbar .dv-nav-right > ul > li.dropdown-language .dropdown-menu .dropdown-item:hover, .dv-navbar .dv-nav-right > ul > li.dropdown-language .dropdown-menu .dropdown-item:focus {
-      color: $red_color_style $imp;
+      color: $pink_color_style $imp;
       background-color: #eeeeee;
     }
   
     .dv-navbar .dv-nav-right > ul > li.dropdown-language .dropdown-menu .dropdown-item.active, .dv-navbar .dv-nav-right > ul > li.dropdown-language .dropdown-menu .dropdown-item:active {
       color: #ffffff !important;
-      background-color: $red_color_style;
+      background-color: $pink_color_style;
     }
   
     .dv-navbar .dv-nav-right > ul > li.dropdown-full-screen > button:hover, .dv-navbar .dv-nav-right > ul > li.dropdown-files > button:hover, .dv-navbar .dv-nav-right > ul > li.dropdown-search > button:hover {
-      color: $red_color_style !important;
+      color: $pink_color_style !important;
     }
   
     .dv-navbar .dv-nav-right > ul > li.dv-dropdown-notifications > a:hover {
-      color: $red_color_style !important;
+      color: $pink_color_style !important;
     }
 }
