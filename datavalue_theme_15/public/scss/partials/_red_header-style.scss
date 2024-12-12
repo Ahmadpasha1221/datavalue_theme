@@ -1,0 +1,149 @@
+body.dv-Red-header-style {
+
+    .side-menu .side-menu-items > ul.dropdown-list > li > a {
+      background: #f8f8f873;
+      border: 1px solid #d1d3d8;
+    }
+  
+    .text-primary {
+      color: $red_color_style $imp;
+    }
+  
+    .side-menu .side-menu-icons > ul > li > a:hover {
+      border-color: $red_color_style;
+      color: $red_color_style;
+    }
+  
+    .side-menu .side-menu-icons > ul > li.active > a {
+      background: $red_color_style;
+      color: #ffffff;
+    }
+  
+    .side-menu .side-menu-items > ul.dropdown-list > li > a:hover .sub-menu-arrow {
+      color: $red_color_style;
+    }
+  
+    .side-menu .side-menu-items > ul.dropdown-list > li > a:hover {
+      border-color: $red_color_style;
+      color: $red_color_style;
+    }
+  
+    .side-menu .side-menu-items > ul.dropdown-list > li.active > a {
+      background: $red_color_style;
+      border-color: $red_color_style;
+      color: #ffffff;
+    }
+  
+    .side-menu .side-menu-items > ul.dropdown-list > li.active > a .sub-menu-arrow {
+      color: #ffffff;
+    }
+  
+    .side-menu .side-menu-icons.menu-icons-with-label > ul > li.active > a > span {
+      color: $red_color_style;
+    }
+  
+    .datatable .dt-cell--focus .dt-cell__content {
+      border-color: $red_color_style;
+    }
+  
+    .widget.shortcut-widget-box:hover svg.icon-xs {
+      stroke: $red_color_style $imp;
+    }
+  
+    .side-menu .side-menu-items > ul.dropdown-list > li > ul > li > a:hover {
+      color: $red_color_style;
+    }
+  
+    .side-menu .side-menu-items > ul.dropdown-list > li > ul > li.active > a {
+      color: $red_color_style;
+    }
+  
+    .btn.btn-primary, div#driver-popover-item .driver-popover-footer button.btn-primary, div#driver-popover-item .driver-popover-footer button.driver-next-btn {
+      background-color: $red_color_style;
+      --icon-stroke: currentColor;
+      --icon-fill-bg: $red_color_style;
+    }
+  
+    .btn-primary:not(:disabled):not(.disabled):active, div#driver-popover-item .driver-popover-footer button.driver-next-btn:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, div#driver-popover-item .driver-popover-footer button.driver-next-btn:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle, div#driver-popover-item .driver-popover-footer .show > button.dropdown-toggle.driver-next-btn {
+      background-color: $red_color_style_hover;
+      border-color: $red_color_style_hover;
+    }
+  
+    input[type=checkbox]:checked {
+      background-color: $red_color_style;
+      background-image: url("data:image/svg+xml, <svg viewBox='0 0 8 7' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 4.00001L2.66667 5.80001L7 1.20001' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+      background-size: 57%, 100%;
+    }
+  
+    .form-control:focus {
+      border-color: $red_color_style $imp;
+    }
+  
+    .list-sidebar .sidebar-action {
+      color: $red_color_style;
+    }
+  
+    .btn-primary-light {
+      color: #1f272e;
+      background-color: $red_color_style_light;
+      border-color: $red_color_style_light;
+      color: $red_color_style_hover;
+    }
+  
+    .notifications-list .notification-item-tabs .notifications-category.active {
+      border-bottom: 1px solid $red_color_style;
+    }
+  
+    .form-tabs-list .form-tabs .nav-item .nav-link.active {
+      border-bottom: 1px solid $red_color_style;
+    }
+  
+    button.btn.btn-default.btn-sm.btn-paging.btn-info {
+      background: $red_color_style !important;
+      border-color: $red_color_style !important;
+    }
+  
+    .dv-navbar .dv-nav-right > ul > li.dropdown-user > a .dv-user-info span.user-name {
+      color: $red_color_style;
+    }
+  
+    .dv-navbar .dv-nav-left .btn-open-modules {
+      color: $red_color_style_hover;
+    }
+  
+    .dv-navbar .dv-nav-left .btn-open-modules:hover {
+      color: $red_color_style;
+    }
+  
+    .ql-snow.ql-toolbar button:hover, .ql-snow .ql-toolbar button:hover, .ql-snow.ql-toolbar button:focus, .ql-snow .ql-toolbar button:focus, .ql-snow.ql-toolbar button.ql-active, .ql-snow .ql-toolbar button.ql-active, .ql-snow.ql-toolbar .ql-picker-label:hover, .ql-snow .ql-toolbar .ql-picker-label:hover, .ql-snow.ql-toolbar .ql-picker-label.ql-active, .ql-snow .ql-toolbar .ql-picker-label.ql-active, .ql-snow.ql-toolbar .ql-picker-item:hover, .ql-snow .ql-toolbar .ql-picker-item:hover, .ql-snow.ql-toolbar .ql-picker-item.ql-selected, .ql-snow .ql-toolbar .ql-picker-item.ql-selected {
+      color: $red_color_style;
+    }
+  
+    .dv-navbar .dv-nav-right > ul > li.dropdown-user .dropdown-menu .dropdown-item:hover, .dv-navbar .dv-nav-right > ul > li.dropdown-user .dropdown-menu .dropdown-item:focus {
+      color: $red_color_style $imp;
+      background-color: #eeeeee;
+    }
+  
+    .dv-navbar .dv-nav-right > ul > li.dropdown-user .dropdown-menu .dropdown-item.active, .dv-navbar .dv-nav-right > ul > li.dropdown-user .dropdown-menu .dropdown-item:active {
+      color: #ffffff !important;
+      background-color: $red_color_style;
+    }
+  
+    .dv-navbar .dv-nav-right > ul > li.dropdown-language .dropdown-menu .dropdown-item:hover, .dv-navbar .dv-nav-right > ul > li.dropdown-language .dropdown-menu .dropdown-item:focus {
+      color: $red_color_style $imp;
+      background-color: #eeeeee;
+    }
+  
+    .dv-navbar .dv-nav-right > ul > li.dropdown-language .dropdown-menu .dropdown-item.active, .dv-navbar .dv-nav-right > ul > li.dropdown-language .dropdown-menu .dropdown-item:active {
+      color: #ffffff !important;
+      background-color: $red_color_style;
+    }
+  
+    .dv-navbar .dv-nav-right > ul > li.dropdown-full-screen > button:hover, .dv-navbar .dv-nav-right > ul > li.dropdown-files > button:hover, .dv-navbar .dv-nav-right > ul > li.dropdown-search > button:hover {
+      color: $red_color_style !important;
+    }
+  
+    .dv-navbar .dv-nav-right > ul > li.dv-dropdown-notifications > a:hover {
+      color: $red_color_style !important;
+    }
+}

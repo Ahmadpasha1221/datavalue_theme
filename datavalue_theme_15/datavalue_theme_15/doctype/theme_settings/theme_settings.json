@@ -17,6 +17,7 @@
   "hide_language_icon",
   "show_help_icon",
   "theme_color",
+  "header_color",
   "favicon",
   "loading_image",
   "font_style_section",
@@ -46,6 +47,13 @@
   {
    "default": "Blue",
    "fieldname": "theme_color",
+   "fieldtype": "Select",
+   "label": "Color",
+   "options": "Blue\nGreen\nRed\nOrange\nYellow\nPink\nViolet\nNavy"
+  },
+  {
+   "default": "Blue",
+   "fieldname": "header_color",
    "fieldtype": "Select",
    "label": "Color",
    "options": "Blue\nGreen\nRed\nOrange\nYellow\nPink\nViolet\nNavy"

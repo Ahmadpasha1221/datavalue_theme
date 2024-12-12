@@ -95,6 +95,7 @@ def get_theme_settings():
         'slideshow_photos': slideshow_photos,
         'dark_view': settings_list['dark_view'] if ("dark_view" in settings_list) else '',
         'theme_color': settings_list['theme_color'] if ("theme_color" in settings_list) else '',
+        'header_color': settings_list['header_color'] if ("header_color" in settings_list) else '',   # added header
         'open_workspace_on_mobile_menu': settings_list['open_workspace_on_mobile_menu'] if ("open_workspace_on_mobile_menu" in settings_list) else '',
         'show_icon_label': settings_list['show_icon_label'] if ("show_icon_label" in settings_list) else '',
         'hide_icon_tooltip': settings_list['hide_icon_tooltip'] if ("hide_icon_tooltip" in settings_list) else '',

@@ -29,6 +29,19 @@ $(document).on('click', '.open-theme-setting', function (event) {
                         </div>
                     </div>
                 `
+            },
+            {
+                label: 'Colors',
+                fieldname: 'header_colors_icons',
+                fieldtype: 'HTML',
+                options: `
+                    <div class="theme-setting-colors-select theme-setting-modal">   
+                        <h4>${__('Header Colors')}</h4>
+                        <div class="dv-row dv-row-sm"> 
+                            ${colors_list.map(color => `<div class="dv-col"><button type="button" class="${($('body').data('header-color') == color) ? 'active' : ''}" data-color="${color}" data-class="dv-${color}-header-style">${color}</button></div>`).join("")}
+                        </div>
+                    </div>
+                `
             }
         ],
         primary_action_label: __('Save Settings'),
@@ -48,5 +61,21 @@ $(document).on('click', '.open-theme-setting', function (event) {
             });
         }
     });
+    d.set_secondary_action(function () {
+        let active_header_btn = $('.theme-setting-colors-select.theme-setting-modal button.active[data-class*="header"]');
+        let header_data = {
+            header_color_name: active_header_btn.data('color'),
+            header_color_class: active_header_btn.data('class')
+        };
+        frappe.db.set_value('Theme Settings', 'Theme Settings', {
+            'header_color': header_data.header_color_name
+        }, function () {
+            frappe.ui.toolbar.clear_cache();
+            setTimeout(() => d.hide(), 1000);
+        });
+    });
+
+    d.set_secondary_action_label(__('Save Header'));
     d.show();
 });
+
