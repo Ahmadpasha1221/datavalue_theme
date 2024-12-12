@@ -112,3 +112,25 @@ def get_desk_assets(build_version):
                 pass
 
     return {"build_version": data["build_version"], "boot": data["boot"], "assets": assets}
+
+
+
+# app.py
+
+def get_theme_settings(user):
+    # Fetch user-specific settings
+    user_settings = frappe.db.get_value(
+        "User Theme Settings",
+        {"user": user},
+        ["theme_color", "header_color"],
+        as_dict=True
+    ) or {}
+
+    # Default settings if not configured
+    theme_color = user_settings.get("theme_color", "Blue")
+    header_color = user_settings.get("header_color", "Blue")
+
+    return {
+        'theme_color': theme_color,
+        'header_color': header_color
+    }

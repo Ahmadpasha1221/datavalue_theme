@@ -46,6 +46,9 @@ web_include_js = [
     "/assets/datavalue_theme_15/js/vue/theme-settings.js?ver=1.0"
 ]
 
+boot_session = "datavalue_theme.utils.set_theme_in_session"
+
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/datavalue_theme_15/css/datavalue_theme_15.css"
 # app_include_js = "/assets/datavalue_theme_15/js/datavalue_theme_15.js"

@@ -45,14 +45,14 @@
    "label": "Dark View"
   },
   {
-   "default": "Blue",
+   "default":"$('body').data('theme-color') || 'Blue'",
    "fieldname": "theme_color",
    "fieldtype": "Select",
    "label": "Color",
    "options": "Blue\nGreen\nRed\nOrange\nYellow\nPink\nViolet\nNavy"
   },
   {
-   "default": "Blue",
+   "default": "$('body').data('header-color') || 'Blue'",
    "fieldname": "header_color",
    "fieldtype": "Select",
    "label": "Header Color",
