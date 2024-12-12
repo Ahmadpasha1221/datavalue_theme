@@ -62,7 +62,7 @@ $(document).on('click', '.open-theme-setting', function (event) {
         }
     });
     d.set_secondary_action(function () {
-        let active_header_btn = $('.theme-setting-colors-select.theme-setting-modal button.active[data-class*="header"]');
+        let active_header_btn = $('.theme-setting-colors-select.theme-setting-modal.header-colors button.active');
         let header_data = {
             header_color_name: active_header_btn.data('color'),
             header_color_class: active_header_btn.data('class')
