@@ -116,7 +116,7 @@ def get_desk_assets(build_version):
 
 
 # app.py
-
+@frappe.whitelist()
 def get_theme_settings(user):
     # Fetch user-specific settings
     user_settings = frappe.db.get_value(
